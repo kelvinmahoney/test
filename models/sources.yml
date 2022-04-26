@@ -1,7 +1,7 @@
 version: 2
 
 sources:
-  - name: wise-weaver-282922
+  - name: raw_data_sandbox
     database: wise-weaver-282922
     schema: raw_data_sandbox
     tables: 

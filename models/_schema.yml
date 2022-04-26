@@ -1,0 +1,18 @@
+version: 2
+
+models:
+  - name: src_recharge_subscriptions
+    description: source table for subscription data
+    columns:
+      - name: subscription_id
+        tests:
+          - unique
+          - not_null
+          
+  - name: rc_customer_history
+    description: customer
+    columns:
+      - name: "date_day || customer_id"
+        tests:
+          - unique
+          - not_null
